@@ -13,7 +13,8 @@ function Navbar() {
                         className="w-12 h-12 mr-2 object-contain"
                         style={{ objectFit: 'contain' }}
                     />
-                    <div className="text-2xl font-bold uppercase">Farmácia</div>
+                     <Link to="/home" className="text-2xl font-bold text-white">Farmácia</Link>
+                    
                 </div>
                 <div className="flex gap-4">
                     <Link
@@ -22,12 +23,7 @@ function Navbar() {
                     >
                         Categorias
                     </Link>
-                    <Link
-                        to="/home"
-                        className="text-lg hover:underline hover:bg-indigo-800 hover:text-white px-4 py-2 rounded transition duration-300"
-                    >
-                        Home
-                    </Link>
+            
                     <Link
                         to="/cadastroCategoria"
                         className="text-lg hover:underline hover:bg-indigo-800 hover:text-white px-4 py-2 rounded transition duration-300"

@@ -77,7 +77,7 @@ function FormularioCategoria() {
     return (
       <div className="container flex flex-col items-center justify-center mx-auto">
         <h1 className="text-4xl text-center my-8">
-          {id === undefined ? 'Cadastre um novo tema' : 'Editar tema'}
+          {id === undefined ? 'Cadastre uma Categoria' : 'Editar Categoria'}
         </h1>
   
         <form className="w-1/2 flex flex-col gap-4" onSubmit={gerarNovoTema}>
