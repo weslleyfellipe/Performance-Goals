@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import homeLogo from '../../assets/react.svg';
+import homeLogo from '../../assets/farmacia.png';
 
 function Home() {
     return (
@@ -13,12 +13,10 @@ function Home() {
                         <p className="text-xl text-gray-700">Farmácia da Gen</p>
 
                         <div className="flex gap-4">
-                            <Link to="/categoria" className="rounded bg-indigo-900 text-white py-2 px-4 hover:bg-indigo-700 transition duration-300">
+                            <Link to="/categorias" className="rounded bg-indigo-900 text-white py-2 px-4 hover:bg-indigo-700 transition duration-300">
                                 Ver Categorias
                             </Link>
-                            <Link to="/produtos" className="rounded bg-indigo-900 text-white py-2 px-4 hover:bg-indigo-700 transition duration-300">
-                                Ver Produtos
-                            </Link>
+            
                         </div>
                     </div>
 
